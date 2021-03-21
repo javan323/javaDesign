@@ -120,7 +120,7 @@ class ReadXML1 {
             DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = dFactory.newDocumentBuilder();
             Document doc;
-            doc = builder.parse(new File("D:\\work\\workspace\\effectiveJava\\Chapter 5\\src\\main\\resources\\config2.xml"));
+            doc = builder.parse(new File("D:\\work\\workspace\\github\\javaDesign\\design\\src\\main\\resources\\config2.xml"));
             //获取包含类名的文本节点
             NodeList nl = doc.getElementsByTagName("className");
             Node classNode = nl.item(0).getFirstChild();
